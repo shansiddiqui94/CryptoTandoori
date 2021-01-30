@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+.heading {
+  font-size: 2em;
+}
+
+.heading h1 {
+  color: rgb(252, 81, 38);
+}
+
+.heading .slogan {
+  font-size: 0.5em;
+  margin-top: -3em;
+}
+
+.heading p {
+  font-size: 0.6em;
+}
+
+input {
+  padding: 1.5em;
+  margin: 3em 2em;
+  border-radius: 1%;
+  border: none;
+  outline: none;
+}
+
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+
+.search-button {
+  font-family: "Catamaran", sans-serif;
+  border: none;
+  border-radius: 5%;
+  outline: none;
+  padding: 1.3em;
+  background: rgb(252, 81, 38);
+  color: white;
+}
+
+.white {
+  color: white;
+}

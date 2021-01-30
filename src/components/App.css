@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+.App {
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* news container */
+
+.news-container {
+  display: flex;
+  width: 50%;
+  margin: 2em auto;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0px;
+  background: #ffffff;
+  box-shadow: 1px 5px 10px #000000, -5px -5px 30px #ffffff7e;
+}
+
+.news-container .news-title {
+  color: rgb(252, 81, 38);
+}
